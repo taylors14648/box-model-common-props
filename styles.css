@@ -1,7 +1,7 @@
 /* 
     This is a CSS comment. Please add your name to this file below:
     
-    NAME: 
+    NAME: Taylor Sherman
 */
 /* -------------------------------------------------- */
 /* 
@@ -323,6 +323,15 @@ footer{
 /* content, padding, borders, margin, dev tools, inline, & block elements */
 
 /* For both links in the section */
+#section2 a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: var(--box-shadow-lg);
+}
 /* 
     TO DO: add styles to both links in this section that will:
         - make these links display as block-level elements
